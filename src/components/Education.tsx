@@ -8,7 +8,6 @@ import {
   MapPin,
   Award,
   BookOpen,
-  Brain,
   Globe,
 } from "lucide-react";
 
@@ -288,7 +287,7 @@ const Education = () => {
                 </h4>
               </div>
               <p className="text-muted-foreground text-sm">
-                Summa Cum Laude Honors and Gold Medal (2025). Dean's List Honors (5 semesters).
+                Summa Cum Laude Honors and Gold Medal (2025). Dean&apos;s List Honors (5 semesters).
               </p>
             </div>
 
