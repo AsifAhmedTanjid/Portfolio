@@ -121,7 +121,7 @@ const Hero = () => {
             asChild
             className="border-border hover:bg-secondary px-8 py-3 text-base bg-transparent"
           >
-            <a href="/Asif-Ahmed-Tanjid.pdf" download>
+            <a href="/Asif Ahmed Tanjid_Resume.pdf" download>
               <Download className="w-4 h-4 mr-2 text-foreground" />
               <span className="text-foreground">Download CV</span>
             </a>
