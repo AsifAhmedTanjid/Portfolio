@@ -34,6 +34,10 @@ const Hero = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       id="hero"
@@ -110,8 +114,8 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
         >
           <Button
-            onClick={scrollToAbout}
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-base"
+            onClick={scrollToContact}
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-base cursor-pointer"
           >
             <Mail className="w-4 h-4 mr-2" />
             Get In Touch

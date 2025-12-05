@@ -21,7 +21,10 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Asif Ahmed Tanjid - Software Engineer",
   description:
-    "Software Engineer specializing in full-stack development with React, Next.js, Node.js, and Odoo customization.",
+    "Software Engineer",
+  icons: {
+    icon: "/asif-logo.jpg",
+  },
 };
 
 export default function RootLayout({
